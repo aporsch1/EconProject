@@ -1,0 +1,25 @@
+\documentclass[a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{textcomp}
+\usepackage{amsmath, amssymb}
+
+
+% figure support
+\usepackage{import}
+\usepackage{xifthen}
+\pdfminorversion=7
+\usepackage{pdfpages}
+\usepackage{transparent}
+\newcommand{\incfig}[1]{%
+    \def\svgwidth{\columnwidth}
+    \import{./figures/}{#1.pdf_tex}
+}
+
+\pdfsuppresswarningpagegroup=1
+
+\begin{document}
+    #TODO: I still need to decide between some sort of data science project with the virtuous circles or a cut and dry paper with the resource curse in Nigeria. I should be able to do either of these, but the virtuous circles one seems clearly more difficult,
+    which is really not what I am looking for when it comes to this economics class. This is most definitely supposed to be my blowoff class. Anyway, this will get updated when I choose to actually write this mf paper.
+\end{document}
